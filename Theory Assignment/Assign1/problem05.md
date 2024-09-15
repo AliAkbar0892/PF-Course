@@ -40,4 +40,7 @@ Description: To check moisture of field and should irrigation be initiated*/
 
 ## understanding and approach:
  I first analyzed the question forming the understanding of what and how this work. then i used the if conditions to check the type of the crop. in each if i used nested if to check moisture levels in each crop. if desired conditions are not met and moiture levels are low and for wheat and rice it haven't been rained then irrigation is started. i didn't used the if else if because using only ifs alone is convenient and gets the job done. 
-            
+## Flowchart
+![IMG-20240915-WA0023](https://github.com/user-attachments/assets/cdc04655-01d8-446f-a39b-a86e830605f1)
+
+
