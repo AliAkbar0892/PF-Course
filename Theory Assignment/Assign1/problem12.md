@@ -29,4 +29,8 @@ Now, l3 have 1 liter water and l5 have 5 liter. Empty l5, pour 1 liter from l3 i
 
 ## understanding & approach:
 my approach was to just pour whole water from one jug into the other without leaving half in one. this solution is the closest to that. i tried to fill one jug with one liter water and because then 3 litter jug can fill it to 4 liters
- 
+
+ ## Flowchart
+ ![IMG-20240915-WA0025](https://github.com/user-attachments/assets/13712eb0-00d7-4120-9ada-393ff504dcb9)
+
+
