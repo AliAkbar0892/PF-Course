@@ -19,4 +19,9 @@ Description: To convert Km/s to mph. */
    we will display result of calculation stored in miles variable in  output screen using correct unit.
 
 ## Approch to solution:
- I checked how 1km/s is to mph. So I multiplied kilo meter per hour to how much 1 kilometer is in miles per hour
+ I checked how 1km/s is
+ to mph. So I multiplied kilo meter per hour to how much 1 kilometer is in miles per hour
+ ## FlowChart
+ ![IMG-20240915-WA0029](https://github.com/user-attachments/assets/6a0227a1-d3e1-4891-bfaa-f56a5a4b3ead)
+ 
+
