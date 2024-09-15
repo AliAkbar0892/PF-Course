@@ -27,4 +27,6 @@ First, check if province is Sindh if TRUE then take input of age for both gender
 If in first the condition is true THEN PRINT "It is legal to marry" If condition is false then PRINT "It is illegal to marry". If the first condition is false then then check condition for boy and girl. If condition is true then PRINT " it is legal to marry" ELSE " it is illegal to marry"       
 
 ## Understanding and approach:
- Legal age for marriage was given. i used if condition to first check what province we are talking about and then i checked what age both gender are and is it legal to marry in that age in that province                                                                                            
+ Legal age for marriage was given. i used if condition to first check what province we are talking about and then i checked what age both gender are and is it legal to marry in that age in that province     
+ ## Flowchart
+![IMG-20240915-WA0028](https://github.com/user-attachments/assets/bf08b688-ba9f-47af-b99b-2caf65216926)
