@@ -27,4 +27,7 @@ after calculating sum it will be displayed in screen using print.
 
 ## understanding & approch:
  i used % and / operators to take the number apart. the % operator will take last digit and store it in sum. then from the number the the remining digits will be taken apart and stored in n. loop  will run until the number is 0. 
+ ## Flowchart
+![IMG-20240915-WA0031](https://github.com/user-attachments/assets/a61fc424-b750-4b05-b737-ca9fb568928d)
+
      
