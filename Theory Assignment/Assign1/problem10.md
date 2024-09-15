@@ -37,4 +37,9 @@ the corrected number after removing 0 after 9 will be given as output.
 
 ## understanding & approach
  i used the do while to first check how many digits does the number have. after that loop run one less then digit times. in each loop the digits will be checked if they are forming 0 and 9 separately. if yes then the inner if condition will remove 0 and store the remaining result in n and i will be outpted.
+
+ ## Flowchart
+ ![IMG-20240915-WA0020](https://github.com/user-attachments/assets/5944bc9e-a48f-45db-8e97-80b071108929)
+
+
        
