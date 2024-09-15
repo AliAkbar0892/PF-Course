@@ -30,3 +30,5 @@ END
 
 ## Approach to solution:
  I understand that even number are divisible by two and gave remainder 2. so i first checked if the given number is positive and negative from condition n>0. Then i used operator % to check if answer is zero or not. 
+ ## Flowchart
+![IMG-20240915-WA0022](https://github.com/user-attachments/assets/9632aa6e-e473-4bbe-b0f2-85322133ba38)
