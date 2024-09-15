@@ -34,3 +34,7 @@ if the a and b are co prime or not according to condition will be outputted.
 
 ## understanding and approach
  since for the number to be co prime either they should be consective or they should have 1 as their GCD. i have conditions that will check both.
+ ## Flowchart
+ ![IMG-20240915-WA0030](https://github.com/user-attachments/assets/d7aaeec7-4315-4ba6-a615-3c7f6157e065)
+
+
