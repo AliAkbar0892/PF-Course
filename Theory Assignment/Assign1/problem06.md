@@ -40,3 +40,6 @@ if conditions are met then the ride is allowed if not then ride is not allowed.
 
 ## Understanding & approach:
 i used the same technique as the last time. After analyzing it became clear to chose the ride first and then check the conditions. When ride is selected and conditions are checked. i used the & operator in first because both were required to be true. if anyone is false then the program will not allow the ride. IN later conditions only one condition is required to be true. 
+## Flowchart
+![IMG-20240915-WA0026](https://github.com/user-attachments/assets/5ecb7044-04e6-4b56-8345-cb2db47add2b)
+
