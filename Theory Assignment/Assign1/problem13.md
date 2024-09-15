@@ -35,3 +35,6 @@ the maximum amount that can be measured and the all possible quantities that can
 
 ## understanding and approach:
 i knew that to calculate the possible quantities i needed the GCD so that is calculated.
+
+## Flowchart
+![IMG-20240915-WA0027](https://github.com/user-attachments/assets/fd453f01-cced-4e08-81ea-f0b730ed2a84)
