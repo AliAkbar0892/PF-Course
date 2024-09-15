@@ -21,3 +21,6 @@ Description: To check how money Mr. Bhola have. what dose he buys, and how much 
 Calculte total cost of each item by mutiplying cost of each item and total amount of item he bought. then calulate total cost by dding cost of each item togather. calculate change by substracting total amount of money Mr.Bhola has and total cost. 
 ### OUTPUT:
 Gve total cost of all items and change he want to get back.
+## Flowchart
+![IMG-20240915-WA0021](https://github.com/user-attachments/assets/8c609cd5-7a72-4bc2-b647-c7228be38795)
+
