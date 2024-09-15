@@ -52,3 +52,5 @@ switch statement will match the given binary code with the floor number. it will
 floor number corresponding to the given binary digit will get executed.
 ## Understanding ad approach:
 i used switch for this problem because it by far most convenient and easy-to-use method for this code. i first wrote the binary digit for each floor using the given diagram and inserted them into this switch conditions 
+## Flowchart
+![IMG-20240915-WA0024](https://github.com/user-attachments/assets/fb96f52b-60f3-4762-8d83-8c9efafdc0ca)
