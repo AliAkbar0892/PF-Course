@@ -1,40 +1,29 @@
 #include <stdio.h>
 
-void compressWord(char word[], char result[], int *removedCount) {
-    int currentIndex = 0, resultIndex = 0;
-    *removedCount = 0;
-    while (word[currentIndex] != '\0') {
-        if (currentIndex == 0 || word[currentIndex] != word[currentIndex - 1]) {
-            result[resultIndex++] = word[currentIndex];
-        } else {
-            (*removedCount)++;
-        }
-        currentIndex++;
-    }
-    result[resultIndex] = '\0';
-}
+void analyzeFrequency(char slogan[]) {
+    int frequency[256] = {0};
 
-void compressWords(char words[][50], int wordCount, char results[][50], int *totalRemovedCount) {
-    *totalRemovedCount = 0;
-    for (int i = 0; i < wordCount; i++) {
-        int removedCount = 0;
-        compressWord(words[i], results[i], &removedCount);
-        *totalRemovedCount += removedCount;
+    for (int i = 0; slogan[i] != '\0'; i++) {
+        frequency[(int)slogan[i]]++;
     }
+
+    printf("{ ");
+    for (int i = 0; i < 256; i++) {
+        if (frequency[i] > 0) {
+            printf("'%c': %d, ", i, frequency[i]);
+        }
+    }
+    printf("}\n");
 }
 
 int main() {
-    char words[][50] = {"booooook", "coooool", "heeeey"};
-    char results[3][50];
-    int totalRemovedCount;
+    char slogans[][50] = {"buy now", "save big", "limited offer"};
+    int numberOfSlogans = 3;
 
-    compressWords(words, 3, results, &totalRemovedCount);
-
-    for (int i = 0; i < 3; i++) {
-        printf("Original: %s, Compressed: %s\n", words[i], results[i]);
+    for (int i = 0; i < numberOfSlogans; i++) {
+        printf("For \"%s\": ", slogans[i]);
+        analyzeFrequency(slogans[i]);
     }
-
-    printf("Total characters removed: %d\n", totalRemovedCount);
 
     return 0;
 }
